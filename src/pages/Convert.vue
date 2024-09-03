@@ -24,7 +24,7 @@
         <UiInput
           v-model="convertData.from.amount"
           class="w-full"
-          placeholder="Enter your username"
+          placeholder="Enter Amount"
           type="text"
         />
       </div>
@@ -60,7 +60,6 @@
           v-model="convertData.to.amount"
           class="w-full"
           readonly
-          placeholder="Enter your username"
           type="text"
         />
       </div>
